@@ -14,8 +14,8 @@ form.addEventListener('submit', function(e) {
     const labelNota1 = document.querySelector("#label-nota1");
     const labelNota2 = document.querySelector("#label-nota2");
     menssagem.style.display = "block"
-    labelNota1.innerHTML = `Nota 1 = ${notaInt1}`
-    labelNota2.innerHTML = `Nota 2 = ${notaInt2}`
+    labelNota1.innerHTML = `Campo 1 = ${notaInt1}`
+    labelNota2.innerHTML = `Campo 2 = ${notaInt2}`
 
     if (notaInt1 > notaInt2){
         menssagem.innerHTML = 'nota 1 é maior que nota 2'  
